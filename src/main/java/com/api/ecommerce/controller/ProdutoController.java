@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/produtos")
+@CrossOrigin(origins = "https://products-ms.onrender.com/*")
 public class ProdutoController {
     @Autowired
     private ProdutoRepository produtoRepository;
